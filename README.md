@@ -2,8 +2,11 @@ z3, Docker, python 3
 
 # How to run:
 
+docker build --no-cache=false -t z3-python3 .
+
+
 **Linux:**
-docker build --no-cache=false -t python3-z3 .
+docker run -i -t z3-python3 /bin/bash
 
 **Windows:**
-winpty docker run -i -t python3-z3 /bin/bash
+winpty docker run -i -t z3-python3 /bin/bash
