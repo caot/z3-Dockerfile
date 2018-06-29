@@ -1,2 +1,3 @@
-# python3-z3
-python 3.x, z3
+# z3 Dockerfile for python 3
+
+Docker, python 3, z3
